@@ -1,6 +1,3 @@
-
-
-
 function quickSort (list: Array<number>): Array<number> {
 
     if (list.length <= 1) return list
