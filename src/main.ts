@@ -1,12 +1,12 @@
-import {dataA, dataB} from './search/data' 
-import  dataC         from './sort/data'
+import {dataA, dataB} from './search/data-ts' 
+import  dataC         from './sort/data-ts'
 
-import linearSearch   from './search/linear-search'
-import biDirectSearch from './search/bidirect-search'
-import binarySearch   from './search/binary-search'
+import linearSearch   from './search/01linear-search'
+import biDirectSearch from './search/02bidirect-search'
+import binarySearch   from './search/03binary-search'
 
-import quickSort      from './sort/quick-sort'
-import bubleSort      from './sort/bubble-sort'
+import quickSort      from './sort/03quick-sort'
+import bubleSort      from './sort/02bubble-sort'
 
 
 // Search
