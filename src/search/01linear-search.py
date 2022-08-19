@@ -1,8 +1,5 @@
 
-import data 
-
-
-
+import data as data
 
 
 
