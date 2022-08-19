@@ -3,9 +3,9 @@
 ### Линейный поиск  
 
 Осуществляется методом последовательного перебора всех элементов массива, пока не найдет нужный или не пройдет по всему массиву.  
-Сложность алгоритма: O(N)
+##### Сложность алгоритма: O(N)
 
-Линейный поиск на TypeScript:
+#### Линейный поиск на TypeScript:
 
 ```ts
 function linearSearch<A>(list: Array<A>, item: A): A | null {
@@ -19,7 +19,7 @@ function linearSearch<A>(list: Array<A>, item: A): A | null {
 }
 ```
 
-Линейный поиск най python:
+#### Линейный поиск най python:
 
 ```py
 def linearSearch (list, item):
