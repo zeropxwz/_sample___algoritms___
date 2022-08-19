@@ -19,7 +19,7 @@ function linearSearch<A>(list: Array<A>, item: A): A | null {
 }
 ```
 
-#### Линейный поиск най python:
+#### Линейный поиск на python:
 
 ```py
 def linearSearch (list, item):
