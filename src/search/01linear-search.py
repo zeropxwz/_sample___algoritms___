@@ -1,9 +1,6 @@
 
 import data as data
 
-
-
-
 def linearSearch (list, item):
 
     for i in range(len(list)):
