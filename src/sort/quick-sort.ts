@@ -23,8 +23,6 @@ function quickSort (list: Array<number>): Array<number> {
         }
     }
 
-    
-
     return [...quickSort(less), point, ...quickSort(more)]
 }
 
