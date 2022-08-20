@@ -1,3 +1,9 @@
+# Алгоритмы
+
+### Оглавление
+- [Алгоритмы поиска](#Алгоритмы-поиска  )
+- [Алгоритмы сортировки](#Алгоритмы-сортировки)
+
 ## Алгоритмы поиска  
 
 ### Линейный поиск  
@@ -64,15 +70,11 @@ def biDirectSearch (list, item):
 
     l = 0
     r = 0
-
-    length = len(list) / 2
     
-    while (l <= length):
-        if (list[l] == item): 
-            return list[l]
-        if (list[r] == item):
-            return list[r]
-
+    while (l <= len(list) / 2):
+        if (list[l] == item): return list[l]
+        if (list[r] == item): return list[r]
+            
         l += 1
         r -= 1
 
@@ -90,7 +92,7 @@ def biDirectSearch (list, item):
 ##### бинарный поиск на TypeScript:    
 
 ```ts
-function binarySearch<A>(list: Array<A>, item: A): A | null {
+function binarySearch<A>(list: Array<A>, item: A): number | null {
 
     let left:  number = 0
     let right: number = list.length
@@ -102,7 +104,7 @@ function binarySearch<A>(list: Array<A>, item: A): A | null {
         point = Math.floor( (left + right) / 2 )
 
         if (list[point] === item) {
-            return list[point]
+            return point
         }
         if (left + 1 === right) {
             return null
@@ -145,3 +147,6 @@ def binarySearch(list, item):
             left = point
 ```
 
+## Алгоритмы сортировки
+
+### Пузырьковая сортировка
