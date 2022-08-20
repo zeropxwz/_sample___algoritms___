@@ -76,3 +76,9 @@ def biDirectSearch (list, item):
 
     return None
 ```
+
+### бинарный поиск
+
+![](assets/binary-search.jpg)
+
+
