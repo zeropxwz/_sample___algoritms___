@@ -64,10 +64,8 @@ def biDirectSearch (list, item):
 
     l = 0
     r = 0
-
-    length = len(list) / 2
     
-    while (l <= length):
+    while (l <= len(list) / 2):
         if (list[l] == item): return list[l]
         if (list[r] == item): return list[r]
             
