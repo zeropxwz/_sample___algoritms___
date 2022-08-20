@@ -6,8 +6,6 @@
 
 ##### Сложность: O(N)
 
-<img src="assets/linear-search.gif" width="720">
-
 #### Линейный поиск на TypeScript:
 
 ```ts
