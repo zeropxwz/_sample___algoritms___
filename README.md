@@ -5,6 +5,8 @@
 Осуществляется методом последовательного перебора всех элементов массива, пока не найдет нужный или не пройдет по всему массиву.  
 ##### Сложность: O(N)
 
+<img src="assets/linear-search.gif" width="720">
+
 #### Линейный поиск на TypeScript:
 
 ```ts
@@ -76,3 +78,8 @@ def biDirectSearch (list, item):
 
     return None
 ```
+
+### бинарный поиск
+
+<img src="assets/binary-search.png" width="720">
+
