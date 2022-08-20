@@ -79,6 +79,6 @@ def biDirectSearch (list, item):
 
 ### бинарный поиск
 
-![](assets/binary-search.png)
+![](//assets/binary-search.png/150x100)
 
 
