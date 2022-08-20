@@ -26,9 +26,9 @@ import quickSort      from './sort/03quick-sort'
 // )
 
 // Sort
-console.log(
-    selectionSort(dataC)
-)
+// console.log(
+//     selectionSort(dataC)
+// )
 
 // console.log(
 //     bubleSort(dataC)
@@ -39,3 +39,32 @@ console.log(
 // )
 
 
+// function searchMAX(list: Array<number>): number {
+
+//     let max = list[0]
+
+//     for (let i = 0; i < list.length; i++) {
+//         if (list[i] > max) {
+//             max = list[i]
+//         }
+//     }
+
+//     return max
+// }
+
+// function searchMIN(list: Array<number>): number {
+
+//     let min = list[0]
+
+//     for (let i = 0; i < list.length; i++) {
+//         if (list[i] < min) {
+//             min = list[i]
+//         }
+//     }
+
+//     return min
+// }
+
+// console.log(
+//     searchMAX(dataC)
+// )

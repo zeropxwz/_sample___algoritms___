@@ -1,17 +1,25 @@
-function selectionSort(list: Array<number>): Array<number>{
+
+
+
+
+
+
+function selectionSort(list: Array<number>): Array<number> {
     for (let i = 0; i < list.length; i++) {
-        let indexMIN = i
+        let min = i
         for (let j = i; j < list.length; j++) {
-            if (list[j] < list[indexMIN]) {
-                indexMIN = j
+            if (list[j] < list[min]) {
+                min = j
             }
         }
 
-        let temp = list[i]
+        let temp = list[min]
 
-        list[i]        =  list[indexMIN]
-        list[indexMIN] = temp
+        list[min] = list[i]
+        list[i]   = temp
     }
+
+
 
     return list
 }
