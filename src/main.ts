@@ -5,8 +5,11 @@ import linearSearch   from './search/01linear-search'
 import biDirectSearch from './search/02bidirect-search'
 import binarySearch   from './search/03binary-search'
 
-import quickSort      from './sort/03quick-sort'
+
+import selectionSort  from './sort/01secection-sort'
 import bubleSort      from './sort/02bubble-sort'
+import quickSort      from './sort/03quick-sort'
+
 
 
 // Search
@@ -23,12 +26,16 @@ import bubleSort      from './sort/02bubble-sort'
 // )
 
 // Sort
-// console.log(
-//     quickSort(dataC)
-// )
+console.log(
+    selectionSort(dataC)
+)
 
 // console.log(
 //     bubleSort(dataC)
+// )
+
+// console.log(
+//     quickSort(dataC)
 // )
 
 
