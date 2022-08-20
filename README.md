@@ -1,15 +1,14 @@
-# Алгоритмы поиска  
+## Алгоритмы поиска  
 
-## Линейный поиск  
-
-<img src="assets/linear-search.gif" width="720">
+### Линейный поиск  
 
 Осуществляется методом последовательного перебора всех элементов массива, пока не найдет нужный или не пройдет по всему массиву.  
 
-#### Сложность: O(N)
+##### Сложность: O(N)
 
+<img src="assets/linear-search.gif" width="720">
 
-### Линейный поиск на TypeScript:
+#### Линейный поиск на TypeScript:
 
 ```ts
 function linearSearch<A>(list: Array<A>, item: A): A | null {
@@ -23,7 +22,7 @@ function linearSearch<A>(list: Array<A>, item: A): A | null {
 }
 ```
 
-### Линейный поиск на python:
+#### Линейный поиск на python:
 
 ```py
 def linearSearch (list, item):
@@ -37,9 +36,9 @@ def linearSearch (list, item):
 ## Двунаправленный поиск
 
 Похож на обычный линейный поиск, но отличается тем, что последовательность поиска ведется сразу с двух направлений - с начала и с конца массива.  
-#### Сложность: O(N)
+##### Сложность: O(N)
 
-### Двунаправленный поиск на TypeScript:
+#### Двунаправленный поиск на TypeScript:
 
 ```ts
 function biDirectSearch<A>(list: Array<A>, item: A): A | null {
@@ -59,7 +58,7 @@ function biDirectSearch<A>(list: Array<A>, item: A): A | null {
 }
 ```
 
-### Двунаправленный поиск на python:
+#### Двунаправленный поиск на python:
 
 ```py
 def biDirectSearch (list, item):
@@ -81,7 +80,7 @@ def biDirectSearch (list, item):
     return None
 ```
 
-## бинарный поиск
+### бинарный поиск
 
 <img src="assets/binary-search.png" width="720">
 
