@@ -1,4 +1,4 @@
-function binarySearch<A>(list: Array<A>, item: A): A | null {
+function binarySearch<A>(list: Array<A>, item: A): number | null {
 
     let left:  number = 0
     let right: number = list.length
@@ -10,7 +10,7 @@ function binarySearch<A>(list: Array<A>, item: A): A | null {
         point = Math.floor( (left + right) / 2 )
 
         if (list[point] === item) {
-            return list[point]
+            return point
         }
         if (left + 1 === right) {
             return null
