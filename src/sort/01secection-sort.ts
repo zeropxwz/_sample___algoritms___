@@ -18,9 +18,7 @@ function selectionSort(list: Array<number>): Array<number> {
         list[min] = list[i]
         list[i]   = temp
     }
-
-
-
+    
     return list
 }
 
