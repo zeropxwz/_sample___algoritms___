@@ -22,7 +22,7 @@ import quickSort      from './sort/03quick-sort'
 // )
 
 // console.log(
-//     binarySearch<number>(dataB, 10)
+//     binarySearch(dataB, 11)
 // )
 
 // Sort

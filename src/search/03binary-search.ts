@@ -1,4 +1,4 @@
-function binarySearch<A>(list: Array<A>, item: A): number | null {
+function binarySearch(list: Array<number>, item: number): number | null {
 
     let left:  number = 0
     let right: number = list.length
