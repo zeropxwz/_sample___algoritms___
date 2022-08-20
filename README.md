@@ -121,5 +121,27 @@ function binarySearch<A>(list: Array<A>, item: A): A | null {
 ##### бинарный поиск на python:  
 
 ```py
+def binarySearch(list, item):
+
+    left  = 0
+    right = len(list)
+
+    point = None
+
+    while (True):
+
+        point = round((left + right) / 2)
+
+        if (list[point] == item):
+            return point
+        if (left + 1 >= right):
+            return None
+
+
+
+        if (item < list[point]):
+            right = point
+        else:
+            left = point
 ```
 
