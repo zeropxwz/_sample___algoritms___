@@ -25,18 +25,7 @@ function linearSearch<A>(list: Array<A>, item: A): A | null {
 }
 ```
 
-##### Линейный поиск на python:
-
-```py
-def linearSearch (list, item):
-    for i in range(len(list)):
-        if (list[i] == item):
-            return list[i]
-
-    return None
-```
-
-## Двунаправленный поиск
+### Двунаправленный поиск
 
 Похож на обычный линейный поиск, но отличается тем, что последовательность поиска ведется сразу с двух направлений - с начала и с конца массива.  
 
@@ -62,25 +51,7 @@ function biDirectSearch<A>(list: Array<A>, item: A): A | null {
 }
 ```
 
-##### Двунаправленный поиск на python:
-
-```py
-def biDirectSearch (list, item):
-
-    l = 0
-    r = 0
-    
-    while (l <= len(list) / 2):
-        if (list[l] == item): return list[l]
-        if (list[r] == item): return list[r]
-            
-        l += 1
-        r -= 1
-
-    return None
-```
-
-## Бинарный поиск
+### Бинарный поиск
 
 Массив делится на две части - левую и праую. Если искомое значение меньше, чем значение центрального элемента, то правая часть отбрасывается и поиск продолжается, только в левой. На следуйшей итерации операция повтаряется. Так до тех пор центральный элемент (указатель) не будет равен искомому или все элементы не будут проверены.  
 
@@ -117,33 +88,6 @@ function binarySearch<A>(list: Array<A>, item: A): number | null {
         }
     }
 }
-```
-
-##### бинарный поиск на python:  
-
-```py
-def binarySearch(list, item):
-
-    left  = 0
-    right = len(list)
-
-    point = None
-
-    while (True):
-
-        point = round((left + right) / 2)
-
-        if (list[point] == item):
-            return point
-        if (left + 1 >= right):
-            return None
-
-
-
-        if (item < list[point]):
-            right = point
-        else:
-            left = point
 ```
 
 ## Алгоритмы сортировки
