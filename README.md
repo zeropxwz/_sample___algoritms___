@@ -175,3 +175,45 @@ function bubleSort (list: Array<number>): Array<number> {
     return list
 }
 ```
+
+## Рекурсия  
+
+### Факториал  
+
+Рекурсивная функция факториала на TypeScript:  
+
+```ts
+function factorial (num: number): number {
+    
+    if (num === 1) {
+        return num
+    }
+
+    return num * factorial__REQ(num - 1)
+}
+```  
+
+Вычисление факториала итеративнм способом:  
+
+```ts
+function factorial__LOOP_A (num: number): number {
+    let result: number = 1
+
+    for (let i = 1; i <= num; i++) {
+        result *= i
+    }
+
+    return result
+}
+
+function factorial__LOOP_B (num: number): number {
+
+    let result: number = 1
+
+    for (let n = num; n >= 0; n--) {
+        result *= n
+    }
+
+    return result
+}
+```
