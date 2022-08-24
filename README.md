@@ -162,6 +162,4 @@ function factorial__LOOP_B (num: number): number {
 
     return result
 }
-```  
-
-<video><source src="/Пошаговое объяснение рекурсивной функции Фибоначчи.mp4"></video>
+```
