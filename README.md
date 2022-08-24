@@ -162,4 +162,6 @@ function factorial__LOOP_B (num: number): number {
 
     return result
 }
-```
+```  
+
+<video>https://www.youtube.com/watch?v=F4HNO4rCQ2c</video>
